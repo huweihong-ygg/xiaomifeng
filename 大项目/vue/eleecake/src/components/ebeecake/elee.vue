@@ -76,13 +76,13 @@
   <div class="itemBox1">
     <ul>
       <li v-for="(item,i) of Selected" :key="i">
-        <a href="">
+        <router-link to="/pre">
             <div class="imgbox">
               <img :src="axios.defaults.baseURL+item.img" alt="法国法芙娜巧克力">
             </div>  
             <div class="nameEng">{{item.jtitle}}</div>
             <div class="name">{{item.jsubtitle}}</div>
-        </a>
+        </router-link>
       </li> 
     </ul>
   </div>

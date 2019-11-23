@@ -5,7 +5,7 @@ import demo from "./components/ebeecake/demo.vue"
 import reg from "./components/ebeecake/reg.vue"
 import detalis from "./components/ebeecake/detalis.vue"
 import detail2 from "./components/ebeecake/detail2.vue"
-// import pre from "./components/ebeecake/pre.vue"
+import pre from "./components/ebeecake/pre.vue"
 import bill from "./components/ebeecake/bill.vue"
 import login from "./components/ebeecake/login.vue"
 import index1 from "./components/carousel/index1.vue"
@@ -35,7 +35,7 @@ export default new Router({
     {path:"/header",component:header},
     {path:"/",component:elee},
     {path:"/demo",component:demo},
-    // {path:"/pre",component:pre},
+    {path:"/pre",component:pre},
     {path:"/reg",component:reg},
     {path:"/bill",component:bill},
     {path:"/login",component:login},

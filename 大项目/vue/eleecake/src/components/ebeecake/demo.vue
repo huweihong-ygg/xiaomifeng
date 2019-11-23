@@ -253,7 +253,7 @@ export default{
   }
 
 
-    .content li:nth-child(2n+1) span::after{
+    /* .content li:nth-child(2n+1) span::after{
     display:inline-block ;
     width: 35px;
     height: 35px;
@@ -263,7 +263,7 @@ export default{
     background: url(../../../public/img/ts.jpg);
     background-repeat: no-repeat;
     background-size:100%; 
-  }
+  } */
   .content li span.spanright {
     float: right;
     background: #7cfc00;

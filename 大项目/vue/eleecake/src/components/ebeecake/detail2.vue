@@ -163,20 +163,21 @@
 
    <!--底部模块-->
 
-    <div class='whiteblock'>
+    <!-- <div class='whiteblock'>
       <div class='zixun' :class='showOrhide'>
-      </div>
+      </div> -->
       <div class='bottom' @click="addCart">
         加入购物袋
       </div>
-      <div class='toTop'  :class='toTopifHide'  @click='toTop'><a href='#' ></a></div>
-    </div>
+      <!-- <div class='toTop'  :class='toTopifHide'  @click='toTop'><a href='#' ></a></div>
+    </div> -->
 
-
+   <bottomnav> </bottomnav>
   </div>
 </template>
 <script>
   import myheader  from  '../gongYong/header.vue'
+  import bottomnav  from  '../gongYong/bottom_nav.vue'
   export default{
     props:["pid"],
     data(){
@@ -209,7 +210,8 @@
       } 
     },
     components:{
-      myheader
+      myheader,
+      bottomnav
     },
     methods:{
       addCart(){
